@@ -2,7 +2,7 @@
 
 Десктопный музыкальный плеер для SoundCloud с оффлайн-кэшированием, встроенной библиотекой и минималистичным дизайном.
 
-![Aether](https://img.shields.io/badge/platform-Windows-blue) ![Tauri](https://img.shields.io/badge/Tauri-v2-FFC131) ![Rust](https://img.shields.io/badge/Rust-1.77-DEA584) ![License](https://img.shields.io/badge/license-MIT-green)
+![Aether](https://img.shields.io/badge/platform-Windows-blue) ![Tauri](https://img.shields.io/badge/Tauri-v2-FFC131) ![Rust](https://img.shields.io/badge/Rust-1.77-DEA584)
 
 ## Возможности
 
