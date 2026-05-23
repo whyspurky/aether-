@@ -17,19 +17,4 @@
 
 Скачай последний `.msi` из [Releases](https://github.com/whyspurky/aether/releases) и запусти.
 
-## Разработка
-
-```bash
-git clone https://github.com/whyspurky/aether.git
-cd aether
-npm install
-npm run tauri dev
-```
-
-## Сборка
-
-```bash
-npm run tauri build
-```
-
 Установщик будет в `src-tauri/target/release/bundle/nsis/`.
