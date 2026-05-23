@@ -15,6 +15,6 @@
 
 ## Установка
 
-Скачай последний `.msi` из [Releases](https://github.com/whyspurky/aether/releases) и запусти.
+Скачай последний `.msi` из [Releases](https://github.com/whyspurky/aether-/releases) и запусти.
 
 Установщик будет в `src-tauri/target/release/bundle/nsis/`.
