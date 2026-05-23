@@ -1,4 +1,3 @@
-```markdown
 # Aether
 
 Десктопный музыкальный плеер для SoundCloud с оффлайн-кэшированием, встроенной библиотекой и минималистичным дизайном.
@@ -43,22 +42,3 @@ npm run tauri build
 ```
 
 Установщик будет в `src-tauri/target/release/bundle/nsis/`.
-
-## Структура проекта
-
-```
-src/                    # Фронтенд (HTML, CSS, JS)
-  js/
-    core.js             # Шина событий
-    storage.js          # localStorage (плейлисты, избранное, история)
-    api.js              # SoundCloud API через Tauri-команды
-    icons.js            # SVG-иконки Lucide
-    cache.js            # IndexedDB кэш аудио
-    player.js           # Аудиоплеер + очередь
-    ui.js               # Рендеринг треков, карточек
-    main.js             # Роутинг, поиск, библиотека
-src-tauri/              # Rust-бэкенд
-  src/
-    api.rs              # Прямые запросы к SoundCloud
-    lib.rs              # Точка входа Tauri
-```
